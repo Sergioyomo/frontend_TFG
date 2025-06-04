@@ -1,0 +1,14 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Asegura que el contenedor ocupe toda la altura */
+  }
+  
+  .main-content > footer {
+    margin-top: auto !important; /* Empuja el footer hacia abajo */
+  }
