@@ -107,7 +107,7 @@ function ModificarPelicula() {
   return (
     <>
       <Typography variant="h4" align="center" sx={{ mt: 2 }}>
-        Modificar de pelicula
+        Modificar de película
       </Typography>
       <Grid
         container
@@ -123,7 +123,7 @@ function ModificarPelicula() {
           >
             <TextField
               id="outlined-basic"
-              label="Titulo"
+              label="Título"
               variant="outlined"
               name="titulo"
               value={datos.titulo}
@@ -151,7 +151,7 @@ function ModificarPelicula() {
             />
             <TextField
               id="outlined-basic"
-              label="Duracion"
+              label="Duración"
               variant="outlined"
               name="duracion"
               value={datos.duracion}

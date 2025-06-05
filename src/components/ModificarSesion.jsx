@@ -141,7 +141,7 @@ const handleChangeSelect = (event) => {
   return (
     <>
       <Typography variant="h4" align="center" sx={{ mt: 2 }}>
-        Modificar pelicula-sala
+        Modificar película-sala
       </Typography>
       <Grid
         container
@@ -167,7 +167,7 @@ const handleChangeSelect = (event) => {
             onChange={handleChangeSelect}
 
         >
-            <MenuItem value={-1}><em>selecciona cine</em></MenuItem>
+            <MenuItem value={-1}><em>Selecciona cine</em></MenuItem>
             {rowsCine.map((row) => (
             <MenuItem value={row.id}>{row.nombre}</MenuItem>
             ))}
@@ -185,7 +185,7 @@ const handleChangeSelect = (event) => {
             onChange={handleChangeSelectSala}
 
         >
-            <MenuItem value={-1}><em>selecciona Sala</em></MenuItem>
+            <MenuItem value={-1}><em>Selecciona sala</em></MenuItem>
             {/*rowsSala.map((row) => (
             <MenuItem value={row.id} className={`sala-menuItem cine-${row.id_cine}`}>{row.nombre}</MenuItem>
             ))*/}
@@ -199,7 +199,7 @@ const handleChangeSelect = (event) => {
         </Select>
     </FormControl>
         <FormControl fullWidth variant="outlined">
-        <InputLabel id="select-pelicula">Id Pelicula</InputLabel>
+        <InputLabel id="select-pelicula">Id Película</InputLabel>
         <Select
             labelId="select-pelicula"
             id="selectPelicula"
@@ -209,7 +209,7 @@ const handleChangeSelect = (event) => {
             label="IdPelicula"
             onChange={handleChangeSelectPelicula}
         >
-            <MenuItem value={-1}><em>selecciona pelicula</em></MenuItem>
+            <MenuItem value={-1}><em>Selecciona película</em></MenuItem>
             {rowsPelicula.map((row) => (
             <MenuItem value={row.id}>{row.titulo}</MenuItem>
             ))}
@@ -219,7 +219,7 @@ const handleChangeSelect = (event) => {
               type="date"
               InputLabelProps={{shrink:true}}
               id="outlined-basic"
-              label="Dia"
+              label="Día"
               variant="outlined"
               name="dia"
               value={datos.dia}

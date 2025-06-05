@@ -71,8 +71,8 @@ function ListadoUsuario() {
                 <TableRow>
                   <TableCell align="right">ID</TableCell>
                   <TableCell>NOMBRE</TableCell>
-                  <TableCell>email</TableCell>
-                  <TableCell>rol</TableCell>
+                  <TableCell>EMAIL</TableCell>
+                  <TableCell>ROL</TableCell>
                   <TableCell>BORRAR</TableCell>
                   <TableCell>EDITAR</TableCell>
                 </TableRow>

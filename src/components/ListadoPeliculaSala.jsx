@@ -61,7 +61,7 @@ function ListadoPeliculaSala() {
     <>
       <Box id="pdf-content">
         <Typography variant="h4" align="center" sx={{ mt: 2 }}>
-          Listado de peliculasala
+          Listado de película-sala
         </Typography>
 
         <Box sx={{ mx: 4 }}>
@@ -72,7 +72,7 @@ function ListadoPeliculaSala() {
                   <TableCell align="right">ID</TableCell>
                   <TableCell>CINE</TableCell>
                   <TableCell>SALA</TableCell>
-                  <TableCell>PELICULA</TableCell>
+                  <TableCell>PELÍCULA</TableCell>
                   <TableCell>ELIMINAR</TableCell>
                   <TableCell>EDITAR</TableCell>
                 </TableRow>

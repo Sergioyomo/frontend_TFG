@@ -118,7 +118,7 @@ function Login() {
           </Button>
         </Grid>
         <Grid item xs={12}>
-        ¿No tienes cuenta? <Link to="/signup">Registrate</Link>
+        ¿No tienes cuenta? <Link to="/signup">Regístrate</Link>
         </Grid>
       </Grid>
     </Box>

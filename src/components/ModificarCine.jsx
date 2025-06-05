@@ -109,7 +109,7 @@ function ModificarCine() {
             />
             <TextField
               id="outlined-basic"
-              label="ubicacion"
+              label="Ubicación"
               variant="outlined"
               name="ubicacion"
               value={datos.ubicacion}
@@ -117,7 +117,7 @@ function ModificarCine() {
             />
             <TextField
               id="outlined-basic"
-              label="precio entrada"
+              label="Precio entrada"
               variant="outlined"
               name="precioentrada"
               value={datos.precioentrada}

@@ -133,7 +133,7 @@ function AltaPeliculaSala() {
             onChange={handleChangeSelect}
 
         >
-            <MenuItem value={-1}><em>selecciona cine</em></MenuItem>
+            <MenuItem value={-1}><em>Selecciona cine</em></MenuItem>
             {rowsCine.map((row) => (
             <MenuItem value={row.id}>{row.nombre}</MenuItem>
             ))}
@@ -151,7 +151,7 @@ function AltaPeliculaSala() {
             onChange={handleChangeSelectSala}
 
         >
-            <MenuItem value={-1}><em>selecciona Sala</em></MenuItem>
+            <MenuItem value={-1}><em>Selecciona sala</em></MenuItem>
             {/*rowsSala.map((row) => (
             <MenuItem value={row.id} className={`sala-menuItem cine-${row.id_cine}`}>{row.nombre}</MenuItem>
             ))*/}
@@ -165,7 +165,7 @@ function AltaPeliculaSala() {
         </Select>
     </FormControl>
         <FormControl fullWidth variant="outlined">
-        <InputLabel id="select-pelicula">Id Pelicula</InputLabel>
+        <InputLabel id="select-pelicula">Id Película</InputLabel>
         <Select
             labelId="select-pelicula"
             id="selectPelicula"
@@ -176,7 +176,7 @@ function AltaPeliculaSala() {
             onChange={handleChangeSelectPelicula}
 
         >
-            <MenuItem value={-1}><em>selecciona pelicula</em></MenuItem>
+            <MenuItem value={-1}><em>Selecciona película</em></MenuItem>
             {rowsPelicula.map((row) => (
             <MenuItem value={row.id}>{row.titulo}</MenuItem>
             ))}

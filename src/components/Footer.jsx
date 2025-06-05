@@ -11,7 +11,7 @@ function Footer() {
                 <MDBRow>
                     <MDBCol lg="6" md="12" className="mb-4">
                         <h5 className="text-uppercase">BlueLight</h5>
-                        <p>Explora el mundo del los cines actuales y sus grandes historias.</p>
+                        <p>Explora el mundo de los cines actuales y sus grandes historias.</p>
                     </MDBCol>
                     {/*<MDBCol lg="3" md="6" className="mb-4">
                         <h5 className="text-uppercase">Enlaces</h5>
@@ -24,7 +24,7 @@ function Footer() {
                         </ul>
                     </MDBCol>*/}
                     <MDBCol lg="3" md="6" className="mb-4 ms-auto">
-                        <h5 className="text-uppercase">Siguenos</h5>
+                        <h5 className="text-uppercase">Síguenos</h5>
                         <div class="socials">
                             <a href="https://www.facebook.com/" style={{display:'inline-block', minHeight:'40px', width:'40px', backgroundColor:'#00C3FF', margin:'0 15px 10px 0', textAlign:'center', lineHeight:'40px', borderRadius:'50%', color:'#FFFFFF', fontSize:'20px'}}> <i class="fa-brands fa-facebook-f"></i></a>
                             <a href="https://x.com/" style={{display:'inline-block', minHeight:'40px', width:'40px', backgroundColor:'#00C3FF', margin:'0 15px 10px 0', textAlign:'center', lineHeight:'40px', borderRadius:'50%', color:'#FFFFFF', fontSize:'20px'}}> <i class="fab fa-twitter"></i></a>

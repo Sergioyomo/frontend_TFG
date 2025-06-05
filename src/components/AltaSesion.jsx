@@ -116,7 +116,7 @@ function AltaSesion() {
   return (
     <>
       <Typography variant="h4" align="center" sx={{ mt: 2 }}>
-        Alta sesion
+        Alta sesión
       </Typography>
       <Grid
         container
@@ -142,7 +142,7 @@ function AltaSesion() {
             onChange={handleChangeSelect}
 
         >
-            <MenuItem value={-1}><em>selecciona cine</em></MenuItem>
+            <MenuItem value={-1}><em>Selecciona cine</em></MenuItem>
             {rowsCine.map((row) => (
             <MenuItem value={row.id}>{row.nombre}</MenuItem>
             ))}
@@ -160,7 +160,7 @@ function AltaSesion() {
             onChange={handleChangeSelectSala}
 
         >
-            <MenuItem value={-1}><em>selecciona Sala</em></MenuItem>
+            <MenuItem value={-1}><em>Selecciona sala</em></MenuItem>
             {/*rowsSala.map((row) => (
             <MenuItem value={row.id} className={`sala-menuItem cine-${row.id_cine}`}>{row.nombre}</MenuItem>
             ))*/}
@@ -174,7 +174,7 @@ function AltaSesion() {
         </Select>
     </FormControl>
         <FormControl fullWidth variant="outlined">
-        <InputLabel id="select-pelicula">Pelicula</InputLabel>
+        <InputLabel id="select-pelicula">Película</InputLabel>
         <Select
             labelId="select-pelicula"
             id="selectPelicula"
@@ -185,7 +185,7 @@ function AltaSesion() {
             onChange={handleChangeSelectPelicula}
 
         >
-            <MenuItem value={-1}><em>selecciona pelicula</em></MenuItem>
+            <MenuItem value={-1}><em>Selecciona película</em></MenuItem>
             {rowsPelicula.map((row) => (
             <MenuItem value={row.id}>{row.titulo}</MenuItem>
             ))}
@@ -195,7 +195,7 @@ function AltaSesion() {
               type="date"
               InputLabelProps={{shrink:true}}
               id="outlined-basic"
-              label="Dia"
+              label="Día"
               variant="outlined"
               name="dia"
               value={datos.dia}

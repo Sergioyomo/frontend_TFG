@@ -71,7 +71,7 @@ function ListadoCine() {
                 <TableRow>
                   <TableCell align="right">ID</TableCell>
                   <TableCell>NOMBRE</TableCell>
-                  <TableCell>UBICACION</TableCell>
+                  <TableCell>UBICACIÓN</TableCell>
                   <TableCell>PRECIO ENTRADA</TableCell>
                   <TableCell>ELIMINAR</TableCell>
                   <TableCell>EDITAR</TableCell>

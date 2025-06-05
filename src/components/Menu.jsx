@@ -105,14 +105,14 @@ const logout = async () => {
               <MDBNavbarItem>
                 <MDBDropdown dropright>
                   <MDBDropdownToggle tag="a" className="nav-link" role="button">
-                    Pelicula
+                    Película
                   </MDBDropdownToggle>
                   <MDBDropdownMenu>
                     <Link to="/altapelicula" style={{ color: darkMode ? "#fff" : "#4f4f4f" }}>
-                      <MDBDropdownItem link>Alta de Pelicula</MDBDropdownItem>
+                      <MDBDropdownItem link>Alta de Película</MDBDropdownItem>
                     </Link>
                     <Link to="/listadopelicula" style={{ color: darkMode ? "#fff" : "#4f4f4f" }}>
-                      <MDBDropdownItem link>Listado de Pelicula</MDBDropdownItem>
+                      <MDBDropdownItem link>Listado de Película</MDBDropdownItem>
                     </Link>
                   </MDBDropdownMenu>
                 </MDBDropdown>
@@ -131,14 +131,14 @@ const logout = async () => {
                 </MDBDropdown>
                 <MDBDropdown dropright>
                   <MDBDropdownToggle tag="a" className="nav-link" role="button">
-                    Pelicula-Sala
+                    Película-Sala
                   </MDBDropdownToggle>
                   <MDBDropdownMenu>
                     <Link to="/altapeliculasala" style={{ color: darkMode ? "#fff" : "#4f4f4f" }}>
-                      <MDBDropdownItem link>Alta de pelicula-sala</MDBDropdownItem>
+                      <MDBDropdownItem link>Alta de película-sala</MDBDropdownItem>
                     </Link>
                     <Link to="/listadopeliculasala" style={{ color: darkMode ? "#fff" : "#4f4f4f" }}>
-                      <MDBDropdownItem link>Listado de pelicula-sala</MDBDropdownItem>
+                      <MDBDropdownItem link>Listado de película-sala</MDBDropdownItem>
                     </Link>
                   </MDBDropdownMenu>
                 </MDBDropdown>
@@ -148,7 +148,7 @@ const logout = async () => {
                   </MDBDropdownToggle>
                   <MDBDropdownMenu>
                     <Link to="/altasesion" style={{ color: darkMode ? "#fff" : "#4f4f4f" }}>
-                      <MDBDropdownItem link>Alta de sesion</MDBDropdownItem>
+                      <MDBDropdownItem link>Alta de sesión</MDBDropdownItem>
                     </Link>
                     <Link to="/listadosesion" style={{ color: darkMode ? "#fff" : "#4f4f4f" }}>
                       <MDBDropdownItem link>Listado de sesiones</MDBDropdownItem>

@@ -182,7 +182,7 @@ function SignUp() {
           </Button>
         </Grid>
         <Grid item xs={12}>
-        ¿tienes cuenta? <Link to="/login">inicia sesion</Link>
+        ¿Tienes cuenta? <Link to="/login">Inicia sesión</Link>
         </Grid>
       </Grid>
     </Box>

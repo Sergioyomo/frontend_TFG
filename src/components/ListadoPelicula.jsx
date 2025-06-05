@@ -61,7 +61,7 @@ function ListadoPelicula() {
     <>
       <Box id="pdf-content">
         <Typography variant="h4" align="center" sx={{ mt: 2 }}>
-          Listado de pelicula
+          Listado de película
         </Typography>
 
         <Box sx={{ mx: 4 }}>
@@ -70,9 +70,9 @@ function ListadoPelicula() {
               <TableHead>
                 <TableRow>
                   <TableCell align="right">ID</TableCell>
-                  <TableCell>TITULO</TableCell>
+                  <TableCell>TÍTULO</TableCell>
                   <TableCell>SINOPSIS</TableCell>
-                  <TableCell>DURACION</TableCell>
+                  <TableCell>DURACIÓN</TableCell>
                   <TableCell>EDAD RECOMENDADA</TableCell>
                   <TableCell>FECHA ESTRENO</TableCell>
                   <TableCell>FECHA FIN CARTELERA</TableCell>

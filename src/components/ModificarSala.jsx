@@ -127,7 +127,7 @@ function ModificarSala() {
             onChange={handleChangeSelect}
 
         >
-            <MenuItem value={-1}><em>selecciona cine</em></MenuItem>
+            <MenuItem value={-1}><em>Selecciona cine</em></MenuItem>
             {rows.map((row) => (
             <MenuItem value={row.id}>{row.nombre}</MenuItem>
             ))}
@@ -139,7 +139,7 @@ function ModificarSala() {
     </FormControl>
             <TextField
               id="outlined-basic"
-              label="nombre"
+              label="Nombre"
               variant="outlined"
               name="nombre"
               value={datos.nombre}

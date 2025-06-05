@@ -61,7 +61,7 @@ function ListadoSesion() {
     <>
       <Box id="pdf-content">
         <Typography variant="h4" align="center" sx={{ mt: 2 }}>
-          Listado de sesion
+          Listado de sesión
         </Typography>
 
         <Box sx={{ mx: 4 }}>
@@ -70,10 +70,10 @@ function ListadoSesion() {
               <TableHead>
                 <TableRow>
                   <TableCell align="right">ID</TableCell>
-                  <TableCell>PELICULA</TableCell>
+                  <TableCell>PELÍCULA</TableCell>
                   <TableCell>CINE</TableCell>
                   <TableCell>HORA</TableCell>
-                  <TableCell>DIA</TableCell>
+                  <TableCell>DÍA</TableCell>
                   <TableCell>SALA</TableCell>
                   <TableCell>ELIMINAR</TableCell>
                   <TableCell>EDITAR</TableCell>

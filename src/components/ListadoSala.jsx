@@ -75,7 +75,7 @@ function ListadoSala() {
                   <TableCell>NOMBRE</TableCell>
                   <TableCell>ELIMINAR</TableCell>
                   <TableCell>EDITAR</TableCell>
-                  <TableCell>Butacas</TableCell>
+                  <TableCell>BUTACAS</TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>

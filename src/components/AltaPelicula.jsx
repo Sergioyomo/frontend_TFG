@@ -73,7 +73,7 @@ function AltaPelicula() {
   return (
     <>
       <Typography variant="h4" align="center" sx={{ mt: 2 }}>
-        Alta de pelicula
+        Alta de película
       </Typography>
       <Grid
         container
@@ -89,7 +89,7 @@ function AltaPelicula() {
           >
             <TextField
               id="outlined-basic"
-              label="Titulo"
+              label="Título"
               variant="outlined"
               name="titulo"
               value={datos.titulo}
@@ -117,7 +117,7 @@ function AltaPelicula() {
             />
             <TextField
               id="outlined-basic"
-              label="Duracion"
+              label="Duración"
               variant="outlined"
               name="duracion"
               value={datos.duracion}
